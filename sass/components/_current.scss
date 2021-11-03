@@ -1,0 +1,27 @@
+.current-studio {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+    display: block;
+    margin-top: 28px;
+    margin-bottom: 0;
+  }
+}
+
+.current-portfolio {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 76px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+    display: block;
+    margin-top: 28px;
+    margin-bottom: 0;
+  }
+}
