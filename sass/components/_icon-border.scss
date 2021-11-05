@@ -1,5 +1,14 @@
 .icon-border {
-  width: 270px;
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
