@@ -34,9 +34,11 @@
                         <a class="header-nav__link link current-studio" href="./index.html">Студия</a>
                     </li>
                     <li class="header-nav__item">
-                        <a class="header-nav__link link " href="./portfolio.html">Портфолио</a></li>
+                        <a class="header-nav__link link " href="./portfolio.html">Портфолио</a>
+                    </li>
                     <li class="header-nav__item">
-                        <a class="header-nav__link link " href="">Контакты</a></li>
+                        <a class="header-nav__link link " href="">Контакты</a>
+                    </li>
                 </ul>
 
             </nav>
@@ -53,46 +55,40 @@
                         </svg>
                         +38 096 111 11 11</a></li>
             </ul>
-            
-        </div>
-        <button class="menu-open-btn"><span></span></button>
-    <div class="backdrop ">
-        <div class="mob-menu">
-            <div class="mob-menu-content">
-                <ul class="mob-menu-list list">
-                   <li class="mob-menu-item">
-                       <a href="" class="mob-menu-link link">Студия</a>
-                   </li>
-                <li class="mob-menu-item">
-                    <a href="" class="mob-menu-link link">Портфолио</a>
-                </li>
-                <li class="mob-menu-item">
-                    <a href="" class="mob-menu-link link">Контакты</a>
-                </li>
-                </ul>
-                <a href="" class="mob-menu-tel link">+38 096 111 11 11</a>
-                 <a href="" class="mob-menu-email link">info@devstudio.com</a>
-                </div>
-            <div class="mob-menu-social">
-                <ul class="mob-menu-social-list list">
-                    <li class="mob-menu-social-item">
-                        <a href="mob-menu-social-link link">Instagram</a>
-                    </li>
-                    <li class="mob-menu-social-item">
-                        <a href="mob-menu-social-link link">Twitter</a>
-                    </li>
-                    <li class="mob-menu-social-item">
-                        <a href="mob-menu-social-link link">Facebook</a>
-                    </li>
-                    <li class="mob-menu-social-item">
-                        <a href="mob-menu-social-link link">LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
-            <button class="menu-close-btn"><span></span></button>
 
         </div>
-    </div>
+        <button class="menu-open-btn"><span></span></button>
+        <div class="backdrop is-hidden">
+            
+            <div class="mob-menu">
+                <div class="mob-menu-content">
+                    <div class="mob-menu-bottom">
+                    <ul class="mob-menu-list list">
+                        <li class="mob-menu-item">
+                            <a href="" class="mob-menu-link link">Студия</a>
+                        </li>
+                        <li class="mob-menu-item">
+                            <a href="" class="mob-menu-link link">Портфолио</a>
+                        </li>
+                        <li class="mob-menu-item">
+                            <a href="" class="mob-menu-link link">Контакты</a>
+                        </li>
+                    </ul>
+                    <a href="tel:+380991111111" class="mob-menu-tel link">+38 096 111 11 11</a>
+                    <a href="mailto:info@example.com" class="mob-menu-email link">info@devstudio.com</a>
+                
+                    <ul class="social-nav-menu list">
+                       <li class="social-nav-menu__navigation "><a href="" class="social-nav-menu__link link">Instagram</a></li>
+                       <li class="social-nav-menu__navigation "><a href="" class="social-nav-menu__link link">Twitter</a></li>
+                       <li class="social-nav-menu__navigation "><a href="" class="social-nav-menu__link link">Facebook</a></li>
+                       <li class="social-nav-menu__navigation "><a href="" class="social-nav-menu__link link">LinkedIn</a></li>
+                </ul>
+                </div>
+                </div>
+                <button class="menu-close-btn"><span></span></button>
+
+            </div>
+        </div>
     </header>
     <main>
         <section class="hero">
@@ -154,7 +150,7 @@
                     </li>
                 </ul>
             </div>
-        </section> 
+        </section>
 
         <!-- <section class="advant">
             <div class="container">
@@ -174,7 +170,7 @@
             </div>
         </section> -->
 
-         <section class="empl">
+        <section class="empl">
             <div class="container">
                 <h2 class="empl__title advant-title">Наша команда</h2>
                 <ul class="employee list ">
@@ -330,7 +326,7 @@
                     </li>
                 </ul>
             </div>
-        </section>  
+        </section>
 
         <section class="clients">
             <div class="container">
@@ -390,15 +386,17 @@
 
     </main>
 
-    <!-- <footer class="footer">
-        <div class="container">
+
+
+    <footer class="footer">
+        
+        <div class="container ">
             <div class="footer-logo">
-                <div>
-                    <div>
+                <div >
+                    <div class="mob-footer-logo">
                         <span class="footer-web">Web</span>
                         <span class="footer-studio">Studio</span>
                     </div>
-
                     <address class="footer-adress">
                         <ul class=" list">
                             <li class="footer-list"><a class="address link" href="" :>г. Киев, пр-т Леси Украинки,
@@ -411,7 +409,6 @@
                     </address>
                 </div>
                 <div class="footer-social">
-
                     <p class="footer-title">Присоединяйтесь</p>
                     <ul class="footer-social-list list">
                         <li class="footer-item">
@@ -442,10 +439,7 @@
                                 </svg>
                             </a>
                         </li>
-
-
                     </ul>
-
                 </div>
                 <div class="footer-submit">
                     <p class="footer-submit-text">Подпишитесь на рассылку</p>
@@ -454,10 +448,10 @@
                         <button type="submit" class="btn submit-btn">Подписаться</button>
                     </form>
                 </div>
-
             </div>
         </div>
-    </footer> -->
+        
+    </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="close-btn" data-modal-close>
@@ -512,6 +506,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

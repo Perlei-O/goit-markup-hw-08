@@ -5,9 +5,16 @@
 
 .footer-logo {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.mob-footer-logo {
+  text-align: center;
 }
 
 .footer-web {
@@ -45,6 +52,7 @@
 
 .footer-adress {
   margin-top: 20px;
+  text-align: center;
 }
 
 .footer-contacts {
@@ -85,7 +93,8 @@
 .footer-title {
   color: #ffffff;
   font-family: Roboto;
-  padding: 20px 0px 10px 0px;
+  // padding: 20px 0px 10px 0px;
+  padding: 60px 0px 10px 0px;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -115,13 +124,17 @@
   text-transform: uppercase;
   color: var(--primary-title-color);
   margin-bottom: 20px;
-  padding: 20px 0px 10px 0px;
+  // padding: 20px 0px 10px 0px;
+  padding: 60px 0px 10px 0px;
   color: var(--primary-title-color);
+  text-align: center;
 }
 
 .footer-input {
-  width: 358px;
-  margin: 0;
+  // width: 358px;
+  width: 450px;
+  // margin: 0;
+  margin-bottom: 20px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 13px 16px;
