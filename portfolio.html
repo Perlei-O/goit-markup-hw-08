@@ -110,7 +110,12 @@
             <ul class="portfolio-page__project-list list">
                 <li class="portfolio-page__project-list-item">
                     <div class="portfolio-page__project-div">
-                    <img  src="./images/employee.jpg" alt="три фотографии" width="370" height="294">
+                        <picture>
+                            <source media="(1200px)" srcset="./images/our-people.jpg 1x, ./images/our-people-2x.jpg 2x">
+                
+                             <img src="./images/employee.jpg" alt="три фотографии" width="370" height="294">
+                        </picture>
+                    
     
                     <p class="portfolio-page__project-top-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repudiandae qui ratione
                         voluptatem repellendus quisquam molestiae eaque suscipit mollitia iure.
@@ -222,19 +227,20 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-logo">
+<footer class="footer">
+
+    <div class="container ">
+        <div class="footer-logo">
+            <div class="tablet-footer">
                 <div>
-                    <div>
+                    <div class="mob-footer-logo">
                         <span class="footer-web">Web</span>
                         <span class="footer-studio">Studio</span>
                     </div>
-    
                     <address class="footer-adress">
                         <ul class=" list">
-                            <li class="footer-list"><a class="address link" href="" :>г. Киев, пр-т Леси Украинки, 26</a>
-                            </li>
+                            <li class="footer-list"><a class="address link" href="" :>г. Киев, пр-т Леси Украинки,
+                                    26</a></li>
                             <li class="footer-list"><a class="footer-contacts link"
                                     href="mailto:info@example.com">info@example.com</a></li>
                             <li class="footer-list"><a class="footer-contacts href=" tel:+380991111111">+38 099 111 11
@@ -243,54 +249,50 @@
                     </address>
                 </div>
                 <div class="footer-social">
-    
                     <p class="footer-title">Присоединяйтесь</p>
                     <ul class="footer-social-list list">
                         <li class="footer-item">
-                            <a href="" class="social__link">
+                            <a href="" class="social-link">
                                 <svg class="footer-svg " width="20px" height="20px">
                                     <use class="footer-icon" href="./images/sprite.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="footer-item">
-                            <a href="" class="social__link">
+                            <a href="" class="social-link">
                                 <svg class="footer-svg " width="20px" height="20px">
                                     <use class="footer-icon" href="./images/sprite.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="footer-item">
-                            <a href="" class="social__link">
+                            <a href="" class="social-link">
                                 <svg class="footer-svg " width="20px" height="20px">
                                     <use class="footer-icon" href="./images/sprite.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="footer-item">
-                            <a href="" class="social__link">
+                            <a href="" class="social-link">
                                 <svg class="footer-svg " width="20px" height="20px">
                                     <use class="footer-icon" href="./images/sprite.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
                         </li>
-    
-    
                     </ul>
-    
                 </div>
-                <div class="footer-submit">
-                    <p class="footer-submit-text">Подпишитесь на рассылку</p>
-                    <form action="#" class="footer-form">
-                        <input type="text" name="mail" placeholder="E-mail" class="footer-input">
-                        <button type="submit" class="btn submit-btn">Подписаться</button>
-                    </form>
-                </div>
-                
-                </div>
-            </div> 
+            </div>
+            <div class="footer-submit">
+                <p class="footer-submit-text">Подпишитесь на рассылку</p>
+                <form action="#" class="footer-form">
+                    <input type="text" name="mail" placeholder="E-mail" class="footer-input">
+                    <button type="submit" class="btn submit-btn">Подписаться</button>
+                </form>
+            </div>
         </div>
-    </footer>
+    </div>
+
+</footer>
 </body>
 
 </html>

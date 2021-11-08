@@ -1,15 +1,30 @@
 .portfolio-page {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .portfolio {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   @extend %align-items;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio-page__item {
+  margin-bottom: 15px;
   margin-right: 8px;
   background-color: var(--accent-color);
   border-radius: 4px;
