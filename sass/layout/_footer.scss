@@ -190,6 +190,10 @@
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
   }
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin: 0;
+  }
 }
 
 .footer-form {
