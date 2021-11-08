@@ -55,9 +55,9 @@
                         </svg>
                         +38 096 111 11 11</a></li>
             </ul>
-
+<button class="menu-open-btn"><span></span></button>
         </div>
-        <button class="menu-open-btn"><span></span></button>
+        
         <div class="backdrop is-hidden">
             
             <div class="mob-menu">
@@ -175,9 +175,14 @@
                 <h2 class="empl__title advant-title">Наша команда</h2>
                 <ul class="employee list ">
                     <li class="employee__element">
-                        <img 
-                        srcset="./images/ihor.jpg 1x, ./images/mobile-product-designer-2x.jpg 2x"
-                        src="./images/ihor.jpg" alt="мужчина в очках" width="270">
+                        <picture>
+                            <source media="(1200px)" srcset="./images/desktop-product-designer.jpg 1x, ./images/desktop-product-designer-2x.jpg 2x">
+                            <source media="(768px)" srcset="./images/tablet-product-designer.jpg 1x, ./images/tablet-product-designer-2x.jpg 2x">
+                            <source media="(480px)" srcset="./images/mobile-product-designer.jpg 1x, ./images/mobile-product-designer-2x.jpg 2x">
+                            <img  src="./images/ihor.jpg"
+                                alt="мужчина в очках" width="270">
+                        </picture>
+                        
                         <div class="employee__team">
                             <h3 class="employee__list">Игорь Демьяненко</h3>
                             <p class="employee__item">Product Designer</p>
@@ -215,9 +220,14 @@
                         </div>
                     </li>
                     <li class="employee__element">
-                        <img 
-                        srcset="./images/olha.jpg 1x, ./images/mobile-frontend-developer-2x.jpg 2x"
-                        src="./images/olha.jpg" alt="Женщина в очках" width="270">
+                        <picture>
+                            <source media="(1200px)" srcset="./images/desktop-frontend-developer.jpg 1x, ./images/desktop-frontend-developer-2x.jpg 2x">
+                            <source media="(768px)" srcset="./images/tablet-frontend-developer.jpg 1x, ./images/tablet-frontend-developer-2x.jpg 2x">
+                            <source media="(480px)" srcset="./images/olha.jpg 1x, ./images/mobile-frontend-developer-2x.jpg 2x">
+                            <img  src="./images/olha.jpg"
+                                alt="Женщина в очках" width="270">
+                        </picture>
+                        
                         <div class="employee__team">
                             <h3 class="employee__list">Ольга Репина</h3>
                             <p class="employee__item">Frontend Developer</p>
@@ -254,8 +264,15 @@
                         </div>
                     </li>
                     <li class="employee__element">
-
-                        <img src="./images/nokolai.jpg" alt="Улыбающийся мужчина" width="270">
+                              <picture>
+                                <source media="(1200px)"
+                                    srcset="./images/desktop-marketing-1.jpg 1x, ./images/desktop-marketing-1-2x.jpg 2x">
+                                <source media="(768px)"
+                                    srcset="./images/tablet-marketing.jpg 1x, ./images/tablet-marketing-2x.jpg 2x">
+                                <source media="(480px)" srcset="./images./mobile-marketing.jpg 1x, ./images/mobile-marketing-2x.jpg 2x">
+                                <img src="./images/nokolai.jpg" alt="Улыбающийся мужчина" width="270">
+                              </picture>
+                        
                         <div class="employee__team">
                             <h3 class="employee__list">Николай Тарасов</h3>
                             <p class="employee__item">Marketing</p>
@@ -292,7 +309,13 @@
                         </div>
                     </li>
                     <li class="employee__element">
-                        <img src="./images/mihail.jpg" alt="Мужчина в очках и черной футболке" width="270">
+                        <picture>
+                            <source media="(1200px)" srcset="./images/desktop-ui-designer.jpg 1x, ./images/desktop-ui-designer-2x.jpg 2x">
+                            <source media="(768px)" srcset="./images/tablet-ui-designer.jpg 1x, ./images/tablet-ui-designer-2x.jpg 2x">
+                            <source media="(480px)" srcset="./images./mobile-ui-designer.jpg 1x, ./images/mobile-ui-designer-2x.jpg 2x">
+                            <img src="./images/mihail.jpg" alt="Мужчина в очках и черной футболке" width="270">
+                        </picture>
+                        
                         <div class="employee__team">
                             <h3 class="employee__list">Михаил Ермаков</h3>
                             <p class="employee__item">UI Designer</p>
@@ -396,7 +419,8 @@
         
         <div class="container ">
             <div class="footer-logo">
-                <div >
+                <div class="tablet-footer">
+                <div>
                     <div class="mob-footer-logo">
                         <span class="footer-web">Web</span>
                         <span class="footer-studio">Studio</span>
@@ -444,6 +468,7 @@
                             </a>
                         </li>
                     </ul>
+                </div>
                 </div>
                 <div class="footer-submit">
                     <p class="footer-submit-text">Подпишитесь на рассылку</p>

@@ -13,6 +13,12 @@
   list-style: none;
 }
 
+.tablet-footer {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
 .mob-footer-logo {
   text-align: center;
 }
@@ -77,8 +83,12 @@
   fill: white;
 }
 .footer-social {
-  margin-left: 70px;
+  // margin-left: 70px;
   width: 206px;
+  @media screen and (min-width: 768px) {
+    margin-left: 165px;
+    margin-bottom: 102px;
+  }
 }
 
 .footer-social-list {
@@ -100,6 +110,7 @@
   font-size: 14px;
   line-height: 1.14px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .footer-item {
@@ -114,7 +125,7 @@
 }
 
 .footer-submit {
-  margin-left: 93px;
+  // margin-left: 93px;
 }
 
 .footer-submit-text {
@@ -147,4 +158,11 @@
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
   }
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
