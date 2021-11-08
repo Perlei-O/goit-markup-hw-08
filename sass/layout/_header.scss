@@ -43,13 +43,14 @@
 
   @media screen and (min-width: 768px) {
     display: inline-flex;
-    align-items: center;
-    margin-right: 50px;
-    margin-left: auto;
+    //   align-items: center;
+    //   margin-right: 50px;
+    //   margin-left: auto;
     // margin-left: 84px;
   }
   @media screen and (min-width: 1200px) {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     margin-right: 50px;
     margin-left: auto;

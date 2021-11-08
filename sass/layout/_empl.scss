@@ -30,6 +30,10 @@
     display: flex;
     flex-wrap: wrap;
   }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
 
 .employee__element {
@@ -48,6 +52,7 @@
   }
   @media screen and (min-width: 1200px) {
     flex-basis: calc(100% / 4 - 30px);
+    margin-right: 30px;
   }
 }
 
