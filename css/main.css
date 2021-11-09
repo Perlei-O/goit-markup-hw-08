@@ -840,6 +840,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .header-nav__contact-link {
+    margin-left: 150px;
+  }
+}
+
 .header-nav__logo-link {
   position: relative;
 }
@@ -1346,6 +1352,12 @@ img {
     display: inline-flex;
     margin-left: 84px;
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-nav__contact-link {
+    margin-left: 150px;
   }
 }
 
