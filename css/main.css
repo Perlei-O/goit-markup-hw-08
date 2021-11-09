@@ -371,6 +371,9 @@ img {
 
 @media screen and (min-width: 1200px) {
   .social {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -380,6 +383,7 @@ img {
     margin-top: 16px;
     padding: 0 32px;
     list-style: none;
+    margin-left: 5px;
   }
 }
 
