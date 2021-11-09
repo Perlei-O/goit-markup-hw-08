@@ -27,7 +27,7 @@
 
 .header-nav__item {
   &:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 45px;
   }
 }
 .header-nav__contacts-link {
@@ -60,7 +60,9 @@
 .header-logo {
   margin-right: 93px;
   @media screen and (min-width: 768px) {
-    margin-right: 88px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 70px;
   }
 }
 
