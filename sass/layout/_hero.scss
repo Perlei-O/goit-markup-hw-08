@@ -64,6 +64,15 @@
   font-family: Roboto;
   font-style: normal;
   font-size: 26px;
+  @media screen and (min-width: 768px) {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-size: 26px;
+  }
   @media screen and (min-width: 1200px) {
     font-size: 44px;
     max-width: 696px;

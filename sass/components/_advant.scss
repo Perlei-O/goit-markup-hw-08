@@ -3,7 +3,6 @@
 }
 
 .advant-title {
-  margin-bottom: 50px;
 }
 .advant-list {
   display: flex;
@@ -38,5 +37,14 @@
   font-family: Roboto;
   font-style: normal;
   @include font(36px, bold, 1.16, 0.03em);
+  margin-bottom: 50px;
   text-align: center;
+  @media screen and (min-width: 480px) {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
 }

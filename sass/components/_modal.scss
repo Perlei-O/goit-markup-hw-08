@@ -65,15 +65,17 @@
 .modal-title {
   font-family: Roboto;
   font-size: 20px;
-  line-height: 1.5px;
+  line-height: 1.5;
   font-weight: 700;
   letter-spacing: 0.03em;
   color: #212121;
-
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   text-align: center;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
   }
 }
 
@@ -149,8 +151,8 @@
 
 .check-text {
   font-family: Roboto;
-  font-size: 14px;
-  line-height: 1.71px;
+  font-size: 12px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   display: flex;

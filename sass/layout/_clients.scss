@@ -15,6 +15,14 @@
   @include font(36px, bold, 1.16, 0.03em);
   text-align: center;
   margin-bottom: 50px;
+  @media screen and (min-width: 480px) {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
 }
 
 .clients__content {
