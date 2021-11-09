@@ -213,7 +213,7 @@ img {
   padding-bottom: 94px;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 1199px) {
   .advant {
     display: none;
   }
@@ -432,6 +432,7 @@ img {
   display: flex;
   -webkit-transition: opacity 300ms ease-in-out, visibility 300ms ease-in-out;
   transition: opacity 300ms ease-in-out, visibility 300ms ease-in-out;
+  z-index: 999;
 }
 
 .backdrop.is-hidden {
@@ -978,7 +979,6 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  z-index: 99;
 }
 
 .mob-menu-list {
@@ -1493,7 +1493,6 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  z-index: 99;
 }
 
 .mob-menu-list {

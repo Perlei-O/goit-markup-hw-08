@@ -1,12 +1,10 @@
 .advant {
   padding-bottom: 94px;
-  @media screen and (max-width: 1199px) {
+  @media screen and (min-width: 1199px) {
     display: none;
   }
 }
 
-.advant-title {
-}
 .advant-list {
   display: flex;
 }
