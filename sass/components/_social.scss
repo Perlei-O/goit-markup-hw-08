@@ -11,6 +11,24 @@
     width: 206px;
     margin-left: 85px;
   }
+  @media screen and (min-width: 768px) {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 16px;
+    padding: 0 32px;
+    list-style: none;
+    margin-left: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    // align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 16px;
+    padding: 0 32px;
+    list-style: none;
+    margin-left: -5px;
+  }
 }
 
 .social__logo {
