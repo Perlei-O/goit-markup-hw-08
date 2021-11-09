@@ -335,6 +335,16 @@ img {
   list-style: none;
 }
 
+@media screen and (min-width: 480px) {
+  .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 206px;
+    margin-left: 85px;
+  }
+}
+
 .social__logo {
   width: 44px;
   height: 44px;
@@ -921,7 +931,7 @@ img {
 }
 
 .mob-menu-list {
-  margin-bottom: 302px;
+  margin-bottom: 145px;
 }
 
 .mob-menu-content {
@@ -1083,6 +1093,7 @@ img {
 
 @media screen and (min-width: 480px) {
   .hero-title {
+    font-size: 28px;
     margin-bottom: 40px;
   }
 }
@@ -1423,7 +1434,7 @@ img {
 }
 
 .mob-menu-list {
-  margin-bottom: 302px;
+  margin-bottom: 145px;
 }
 
 .mob-menu-content {
