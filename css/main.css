@@ -211,9 +211,10 @@ img {
 
 .advant {
   padding-bottom: 94px;
+  padding-top: 47px;
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .advant {
     display: none;
   }
@@ -274,6 +275,13 @@ img {
   .advant-title {
     font-size: 28px;
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advant-title {
+    font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 
@@ -649,8 +657,22 @@ img {
 
 .header {
   border-bottom: 1px solid #ececec;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 
 .header-nav {
@@ -734,6 +756,7 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-left: 305px;
   }
 }
 
@@ -846,7 +869,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .header-nav__contact-link {
-    margin-left: 150px;
+    margin-left: 30px;
   }
 }
 
@@ -971,7 +994,7 @@ img {
 }
 
 .mob-menu {
-  width: 480px;
+  width: 100vw;
   height: 100vh;
   position: absolute;
   background-color: #ffffff;
@@ -986,6 +1009,7 @@ img {
 
 .mob-menu-list {
   margin-bottom: 145px;
+  nargin-top: 48px;
 }
 
 .mob-menu-content {
@@ -1012,10 +1036,22 @@ img {
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.mob-studio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
 .mob-menu-tel {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 34px;
   line-height: 1.17;
@@ -1026,6 +1062,8 @@ img {
 }
 
 .mob-menu-email {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.16;
@@ -1043,8 +1081,6 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .social-nav-menu__navigation {
@@ -1058,6 +1094,20 @@ img {
 
 .social-nav-menu__link {
   color: #2196f3;
+  position: relative;
+}
+
+.social-nav-menu__link::after {
+  content: "";
+  display: block;
+  top: 10px;
+  left: 75px;
+  width: 22px;
+  height: 0px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .hero {
@@ -1163,8 +1213,22 @@ img {
 
 .header {
   border-bottom: 1px solid #ececec;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 
 .header-nav {
@@ -1248,6 +1312,7 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-left: 305px;
   }
 }
 
@@ -1360,7 +1425,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .header-nav__contact-link {
-    margin-left: 150px;
+    margin-left: 30px;
   }
 }
 
@@ -1485,7 +1550,7 @@ img {
 }
 
 .mob-menu {
-  width: 480px;
+  width: 100vw;
   height: 100vh;
   position: absolute;
   background-color: #ffffff;
@@ -1500,6 +1565,7 @@ img {
 
 .mob-menu-list {
   margin-bottom: 145px;
+  nargin-top: 48px;
 }
 
 .mob-menu-content {
@@ -1526,10 +1592,22 @@ img {
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.mob-studio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
 .mob-menu-tel {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 34px;
   line-height: 1.17;
@@ -1540,6 +1618,8 @@ img {
 }
 
 .mob-menu-email {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.16;
@@ -1557,8 +1637,6 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .social-nav-menu__navigation {
@@ -1572,6 +1650,20 @@ img {
 
 .social-nav-menu__link {
   color: #2196f3;
+  position: relative;
+}
+
+.social-nav-menu__link::after {
+  content: "";
+  display: block;
+  top: 10px;
+  left: 75px;
+  width: 22px;
+  height: 0px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .empl {
@@ -1713,7 +1805,26 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .clients__title {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (min-width: 480px) {
+  .clients__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: -30px;
+    margin-right: -30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .clients__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2168,6 +2279,7 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 30px;
   }
 }
 
@@ -2286,5 +2398,10 @@ img {
   transition: -webkit-transform 300ms linear;
   transition: transform 300ms linear;
   transition: transform 300ms linear, -webkit-transform 300ms linear;
+}
+
+.portfolio-page__project-list-item:hover .portfolio-page__project-top-text {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 /*# sourceMappingURL=main.css.map */

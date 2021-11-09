@@ -1,7 +1,16 @@
 .header {
   border-bottom: 1px solid #ececec;
-  padding-top: 24px;
-  padding-bottom: 25px;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 
 .header-nav {
@@ -52,6 +61,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 305px;
     // margin-right: 50px;
     // margin-left: 100px;
   }
@@ -129,7 +139,7 @@
     margin-bottom: 10px;
   }
   @media screen and (min-width: 1200px) {
-    margin-left: 150px;
+    margin-left: 30px;
   }
 }
 
@@ -229,7 +239,7 @@
 }
 
 .mob-menu {
-  width: 480px;
+  width: 100vw;
   height: 100vh;
   position: absolute;
   background-color: #ffffff;
@@ -240,6 +250,7 @@
 
 .mob-menu-list {
   margin-bottom: 145px;
+  nargin-top: 48px;
 }
 
 .mob-menu-content {
@@ -260,11 +271,23 @@
     font-size: 40px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-    color: #2196f3;
+    color: #212121;
   }
 }
 
+.mob-studio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
 .mob-menu-tel {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 34px;
   line-height: 1.17;
@@ -275,6 +298,8 @@
 }
 
 .mob-menu-email {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.16;
@@ -286,7 +311,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
 }
 
 .social-nav-menu__navigation {
@@ -300,4 +325,17 @@
 
 .social-nav-menu__link {
   color: #2196f3;
+  position: relative;
+}
+
+.social-nav-menu__link::after {
+  content: "";
+  display: block;
+  top: 10px;
+  left: 75px;
+  width: 22px;
+  height: 0px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  position: absolute;
+  transform: rotate(90deg);
 }
