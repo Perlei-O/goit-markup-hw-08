@@ -9,6 +9,12 @@
     display: block;
     margin-top: 28px;
     margin-bottom: 0;
+    @media screen and (min-width: 768px) {
+      margin-top: 41px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-top: 28px;
+    }
   }
 }
 
@@ -23,5 +29,11 @@
     display: block;
     margin-top: 28px;
     margin-bottom: 0;
+    @media screen and (min-width: 768px) {
+      margin-top: 41px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-top: 28px;
+    }
   }
 }

@@ -41,7 +41,7 @@
 .close-btn {
   position: absolute;
   right: 8px;
-  top: 8px;
+  top: 15px;
   width: 30px;
   height: 30px;
   background-color: transparent;
@@ -69,7 +69,7 @@
   font-weight: 700;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
   text-align: center;
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
@@ -110,7 +110,7 @@
 .input-label {
   font-family: Roboto;
   font-size: 12px;
-  line-height: 1.16px;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   color: #757575;
   margin-bottom: 4px;
@@ -145,7 +145,7 @@
   border: none;
   font-family: Roboto;
   font-size: 16px;
-  line-height: 1.87px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
 }
 
